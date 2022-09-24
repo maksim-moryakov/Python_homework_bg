@@ -9,7 +9,8 @@ for X in list:
         for Z in list:
             a = not (X or Y or Z)
             b = (not X) and (not Y) and (not Z)
-            print(f'Утверждение: "¬({X}" ⋁ "{Y}" "{Z})" = ¬"{X}" ⋀ ¬"{Y}" ⋀ ¬"{Z}"')
+            print(
+                f'Утверждение: "¬({X}" ⋁ "{Y}" "{Z})" = ¬"{X}" ⋀ ¬"{Y}" ⋀ ¬"{Z}"')
             if a == b:
                 print('Утверждение истинное')
             else:
