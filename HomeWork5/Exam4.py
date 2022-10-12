@@ -1,6 +1,6 @@
 # Реализуйте RLE алгоритм: реализуйте модуль сжатия и восстановления данных
 
-with open('4_RLE_decoded.txt', 'r') as data:
+with open('RLE.txt', 'r') as data:
     my_text = data.read()
 
 def encode_rle(ss):
@@ -21,7 +21,7 @@ def encode_rle(ss):
 str_code = encode_rle(my_text)
 print(str_code)
 
-with open('4_RLE_encoded.txt', 'r') as data:
+with open('RLE_encoder.txt', 'r') as data:
     my_text2 = data.read()
 
 def decoding_rle(ss:str):
